@@ -1,0 +1,7 @@
+# ELASTICSEARCH (ElasticsearchProperties)
+spring.data.elasticsearch:
+  cluster-name: elasticsearch_clark
+  cluster-nodes: 127.0.0.1:9300
+  repositories.enabled: true # Enable Elasticsearch repositories.
+
+logging.level.org.springframework.data.elasticsearch: DEBUG
